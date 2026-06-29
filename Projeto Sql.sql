@@ -67,7 +67,7 @@ VALUES ('Cimento Portland 50kg', 38.90),
 ('Picareta Estreita com Cabo', 58.00),
 ('Desempenadeira de Aço Dentada', 18.00);
 
-CREATE TABLE data_warehouse.dim_produto(
+CREATE TABLE data_warehouse.dim_cliente(
 id serial  PRIMARY KEY,
 nome_cliente VARCHAR(150) NOT NULL
 );
@@ -107,7 +107,7 @@ VALUES
 ('Davi Lucca Bernardes'),
 ('Emanuelle Cristina Sales');
 
-CREATE TABLE data_warehouse.dim_produto(
+CREATE TABLE data_warehouse.dim_vendedor(
 id serial  PRIMARY KEY,
 nome_vendedor VARCHAR(150) NOT NULL
 );
